@@ -25,7 +25,7 @@ app.get("*", (req, res) =>
   })
 );
 
-app.use("/api/*", TokenMiddleware);
+// app.use("/api/*", TokenMiddleware);
 app.use("/", UserRoutes);
 
 
